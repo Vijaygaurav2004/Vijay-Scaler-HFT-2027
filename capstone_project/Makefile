@@ -1,5 +1,5 @@
-CXX = g++
-CXXFLAGS = -std=c++17 -O3 -Wall -Wextra -pedantic -march=native
+CXX = clang++
+CXXFLAGS = -std=c++17 -stdlib=libc++ -O3 -Wall -Wextra
 LDFLAGS = 
 
 # Source files

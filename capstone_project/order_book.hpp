@@ -2,6 +2,7 @@
 #include <cstdint>
 #include <vector>
 #include <string>
+#include <memory>
 
 struct Order {
     uint64_t order_id;     // Unique order identifier
